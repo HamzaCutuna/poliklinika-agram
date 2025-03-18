@@ -77,7 +77,7 @@ export default function AboutPage() {
               </p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
+            <div className="flex mt-8 flex-wrap gap-4 justify-center">
               <Link href="/usluge">
                 <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
                   Naše usluge

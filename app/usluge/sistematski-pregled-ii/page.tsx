@@ -33,18 +33,6 @@ export default function SistematskiPregledIIPage() {
           <p className="text-muted-foreground mb-6">
             Uz standardne pretrage, VIP sistematski pregled uključuje dodatnu dijagnostiku usmjerenu na prevenciju bolesti povezanih sa stresom i sjedilačkim načinom života. Pregled se obavlja u diskretnom okruženju s fleksibilnim terminima kako bi se prilagodio vašem poslovnom rasporedu.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Naručite se na pregled
-              </Button>
-            </Link>
-            <Link href="/doktori">
-              <Button variant="outline" className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Upoznajte naš tim
-              </Button>
-            </Link>
-          </div>
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
           <Image
@@ -330,13 +318,6 @@ export default function SistematskiPregledIIPage() {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="mt-8">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Zatražite ponudu
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

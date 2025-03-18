@@ -33,18 +33,6 @@ export default function SistematskiPregledPage() {
           <p className="text-muted-foreground mb-6">
             Redoviti sistematski pregledi ključni su za prevenciju bolesti i očuvanje vašeg zdravlja. Naš stručni tim specijalista koristi najsuvremenije dijagnostičke metode kako bi vam pružio kompletnu sliku vašeg zdravstvenog stanja.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Naručite se na pregled
-              </Button>
-            </Link>
-            <Link href="/doktori">
-              <Button variant="outline" className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Upoznajte naš tim
-              </Button>
-            </Link>
-          </div>
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
           <Image
@@ -295,13 +283,6 @@ export default function SistematskiPregledPage() {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="mt-8">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Saznajte više
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

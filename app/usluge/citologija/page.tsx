@@ -37,7 +37,7 @@ export default function CitologijaPage() {
             precizne i pouzdane rezultate. Uz standardne metode, primjenjujemo i napredne tehnike koje uključuju 
             imunocitokemiju i molekularnu dijagnostiku.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/kontakt">
               <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
                 Naručite se na pregled
@@ -222,7 +222,7 @@ export default function CitologijaPage() {
                 </div>
               </div>
             </div>
-            <div className="mt-6">
+            <div className="flex flex-wrap gap-4 justify-center mt-6">
               <Link href="/kontakt">
                 <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
                   Naručite se na testiranje
@@ -317,7 +317,7 @@ export default function CitologijaPage() {
               </div>
             </div>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 flex flex-wrap gap-4 justify-center">
             <Link href="/kontakt">
               <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
                 Saznajte više

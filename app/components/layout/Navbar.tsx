@@ -1,6 +1,9 @@
+"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/app/components/ui/button';
+import { useState } from 'react';
 
 // Navigation items
 const navItems = [
@@ -13,22 +16,25 @@ const navItems = [
 ];
 
 export function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
-        <div className="mr-4 flex">
+      <div className="container flex h-16 items-center justify-between">
+        <div className="flex items-center">
           <Link href="/" className="flex items-center transition-transform hover:scale-105">
             <Image 
               src="/images/logo.png" 
               alt="Agram Poliklinika Logo" 
               width={80} 
               height={80} 
-              className="h-18 w-auto" 
+              className="h-12 w-auto md:h-16" 
+              priority
             />
           </Link>
         </div>
         
-        <nav className="hidden md:flex flex-1 items-center justify-center space-x-2">
+        <nav className="hidden md:flex items-center space-x-2">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -40,13 +46,18 @@ export function Navbar() {
           ))}
         </nav>
         
-        <div className="flex items-center">
+        <div className="flex items-center space-x-4">
           <Link href="/kontakt">
             <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">Naruči se</Button>
           </Link>
           
           {/* Mobile menu button */}
-          <button className="ml-4 md:hidden">
+          <button 
+            className="md:hidden"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-expanded={isMenuOpen}
+            aria-label="Toggle menu"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -58,13 +69,30 @@ export function Navbar() {
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                d="M4 6h16M4 12h16M4 18h16"
+                d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
               />
             </svg>
-            <span className="sr-only">Open menu</span>
           </button>
         </div>
       </div>
+
+      {/* Mobile menu dropdown */}
+      {isMenuOpen && (
+        <div className="md:hidden">
+          <div className="container py-4 space-y-2">
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="block px-3 py-2 text-sm font-medium transition-all hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </header>
   );
 } 

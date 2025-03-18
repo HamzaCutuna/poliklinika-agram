@@ -36,18 +36,6 @@ export default function RadiologijaPage() {
             Naš tim iskusnih radiologa i radioloških tehničara osigurava precizne dijagnoze i 
             minimalnu izloženost zračenju, uz prioritet na sigurnosti i udobnosti pacijenta.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Naručite se na pregled
-              </Button>
-            </Link>
-            <Link href="/oprema">
-              <Button variant="outline" className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Pogledajte našu opremu
-              </Button>
-            </Link>
-          </div>
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
           <Image
@@ -283,13 +271,6 @@ export default function RadiologijaPage() {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="mt-8">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Saznajte više
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

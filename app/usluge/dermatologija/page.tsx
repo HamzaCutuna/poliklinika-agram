@@ -36,18 +36,6 @@ export default function DermatologijaPage() {
             Naš tim iskusnih dermatologa koristi najsuvremenije metode i tehnologije za dijagnostiku i liječenje 
             različitih kožnih stanja, od akni i ekcema do ozbiljnijih stanja poput psorijaze i kožnih tumora.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Naručite se na pregled
-              </Button>
-            </Link>
-            <Link href="/doktori">
-              <Button variant="outline" className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Upoznajte naše dermatologe
-              </Button>
-            </Link>
-          </div>
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
           <Image
@@ -280,13 +268,6 @@ export default function DermatologijaPage() {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="mt-8">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Saznajte više
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

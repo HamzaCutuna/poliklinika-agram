@@ -324,7 +324,7 @@ export default async function DoctorProfilePage({
       <div className="mt-20 bg-primary/10 rounded-2xl p-8 md:p-12 text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">Trebate zakazati pregled?</h2>
         <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Kontaktirajte nas da zakazete pregled kod Dr. {doctor.name.split(' ')[1]} ili bilo kojeg drugog specijaliste iz našeg tima.
+          Kontaktirajte nas da zakažete pregled kod dr. {doctor.name.split(' ')[1]} ili bilo kojeg drugog specijaliste iz našeg tima.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/kontakt">

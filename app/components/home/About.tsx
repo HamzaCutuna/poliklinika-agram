@@ -112,7 +112,7 @@ export function About() {
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-wrap gap-4 justify-center">
               <Link href="/o-nama">
                 <Button className="px-8">Više o nama</Button>
               </Link>

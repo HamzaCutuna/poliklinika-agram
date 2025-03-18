@@ -36,18 +36,6 @@ export default function OpcaInternaPage() {
             Naš tim iskusnih internista koristi najsuvremeniju opremu i primjenjuje najnovije medicinske spoznaje 
             kako bi vam pružio najbolju moguću skrb za vaše zdravlje.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Naručite se na pregled
-              </Button>
-            </Link>
-            <Link href="/doktori">
-              <Button variant="outline" className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Upoznajte naše interniste
-              </Button>
-            </Link>
-          </div>
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
           <Image
@@ -235,13 +223,6 @@ export default function OpcaInternaPage() {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="mt-8">
-            <Link href="/kontakt">
-              <Button className="transition-all hover:shadow-md hover:translate-y-[-2px]">
-                Saznajte više
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

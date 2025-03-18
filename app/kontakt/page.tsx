@@ -137,7 +137,7 @@ export default function ContactPage() {
                     type="email"
                     id="email"
                     className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-ring"
-                    placeholder="vas@email.com"
+                    placeholder="vasa.adresa@email.com"
                   />
                 </div>
               </div>
@@ -150,7 +150,7 @@ export default function ContactPage() {
                   type="tel"
                   id="phone"
                   className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-ring"
-                  placeholder="Vaš broj telefona"
+                  placeholder="Broj telefona"
                 />
               </div>
 
