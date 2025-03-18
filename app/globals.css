@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    /* Blue Color Palette */
+    --primary: 217 91% 45%; /* Primary blue */
+    --primary-foreground: 0 0% 100%; /* White text on primary */
+    
+    --secondary: 210 100% 65%; /* Lighter blue */
+    --secondary-foreground: 0 0% 100%; /* White text on secondary */
+    
+    --accent: 230 60% 50%; /* Deep blue accent */
+    --accent-foreground: 0 0% 100%; /* White text on accent */
+
+    /* Supporting colors */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+ 
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 217 91% 45%; /* Match primary for focus rings */
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 217 33% 17%;
+    --foreground: 210 40% 98%;
+ 
+    /* Blue Dark Mode Palette (keeping this for compatibility, though we'll use light theme) */
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 210 100% 70%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 230 60% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Supporting dark mode colors */
+    --card: 217 33% 17%;
+    --card-foreground: 210 40% 98%;
+ 
+    --popover: 217 33% 17%;
+    --popover-foreground: 210 40% 98%;
+ 
+    --muted: 217 33% 25%;
+    --muted-foreground: 210 40% 80%;
+ 
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --border: 217 33% 25%;
+    --input: 217 33% 25%;
+    --ring: 217 91% 60%; /* Match primary */
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
