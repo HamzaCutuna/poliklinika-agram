@@ -76,14 +76,14 @@ const specializedServices = [
   },
   {
     title: 'Sistematski pregled',
-    description: 'Sveobuhvatni preventivni pregled za muškarce i žene s ciljem ranog otkrivanja zdravstvenih problema.',
+    description: 'Cjeloviti preventivni pregled tijela i većine organa za muškarce i žene.',
     icon: '/icons/checkup.svg',
     link: '/usluge/sistematski-pregled',
     imageUrl: '/images/sistematski1.jpg'
   },
   {
     title: 'Sistematski pregled II',
-    description: 'Napredni sistematski pregled prilagođen rukovoditeljima i menadžerima uz specijalizirane pretrage.',
+    description: 'Napredni sistematski pregled prilagođen rukovoditeljima i menadžerima.',
     icon: '/icons/executive.svg',
     link: '/usluge/sistematski-pregled-ii',
     imageUrl: '/images/agram4.jpg'

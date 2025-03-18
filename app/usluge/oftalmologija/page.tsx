@@ -322,7 +322,7 @@ export default function OftalmologijaPage() {
           <p className="text-muted-foreground mb-4">
             "Sve pohvale za polikliniku, a posebno za najbolju doktoricu oftalmologa Tatjanu Ružić Arežinu. Ljubazna,stručna, strpljiva, detaljna i nadasve izuzetan ljekar i dijagnostičar. Ništa ne prepušta slučaju,jako precizna."
           </p>
-          <div className="font-medium">Mirna B., Sarajevo</div>
+          <div className="font-medium">Mirna B.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -336,9 +336,9 @@ export default function OftalmologijaPage() {
             </div>
           </div>
           <p className="text-muted-foreground mb-4">
-            "Danas sam bio na sistematskom pregledu, od samog prijema do završetka samo riječi pohvale kako za pomoćno osoblje tako i za vrhunske znalce svoga posla. Posebno sam zadivljen kojom predanošću je oftalmolog pristupio mom pregledu."
+            "Od samog prijema do završetka samo riječi pohvale. Posebno sam zadivljen kojom predanošću je oftalmolog pristupio mom pregledu. Hvala na predivnom iskustvu."
           </p>
-          <div className="font-medium">Rusmir K., Sarajevo</div>
+          <div className="font-medium">Rusmir K.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -354,7 +354,7 @@ export default function OftalmologijaPage() {
           <p className="text-muted-foreground mb-4">
             "Ovom prilikom željela bih se zahvaliti ljubaznom i profesionalnom osoblju i doktorima koji savjesno obavljaju svoj posao, a posebice dr. Tatjani, oftamologinji koja je odvojila puno vremena na pregled, razgovor i kvalitetne savjete."
           </p>
-          <div className="font-medium">Lidija M., Sarajevo</div>
+          <div className="font-medium">Lidija M.</div>
         </div>
       </div>
 

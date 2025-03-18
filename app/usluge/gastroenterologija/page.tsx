@@ -314,7 +314,7 @@ export default function GastroenterologijaPage() {
             u Poliklinici Agram. Liječenje koje sam dobio značajno je poboljšalo kvalitetu mog života. 
             Posebno cijenim temeljitost i strpljenje doktora.&quot;
           </p>
-          <div className="font-medium">Tarik H., Sarajevo</div>
+          <div className="font-medium">Tarik H.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -332,7 +332,7 @@ export default function GastroenterologijaPage() {
             Osoblje je bilo izuzetno profesionalno i pažljivo, a doktor mi je detaljno objasnio 
             sve nalaze i preporučene preventivne mjere.&quot;
           </p>
-          <div className="font-medium">Damir K., Zenica</div>
+          <div className="font-medium">Damir K.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -350,7 +350,7 @@ export default function GastroenterologijaPage() {
             Poliklinike Agram dobila sam pravilnu dijagnozu i terapiju. Sada konačno mogu normalno 
             jesti i spavati bez neugodnih simptoma.&quot;
           </p>
-          <div className="font-medium">Lejla M., Mostar</div>
+          <div className="font-medium">Lejla M.</div>
         </div>
       </div>
 

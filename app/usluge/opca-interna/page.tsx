@@ -245,7 +245,7 @@ export default function OpcaInternaPage() {
             temeljitošću i profesionalnošću internista. Njihov proaktivni pristup pomogao mi je 
             da na vrijeme otkrijem i počnem liječiti zdravstvene probleme.&quot;
           </p>
-          <div className="font-medium">Haris M., Sarajevo</div>
+          <div className="font-medium">Haris M.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -261,7 +261,7 @@ export default function OpcaInternaPage() {
           <p className="text-muted-foreground mb-4">
             &quot;Ovo je mislim peta ili šesta godina kako u Agram dolazim na sistematske preglede, divni ljudi i sjajni profesionalci. Izuzetna zahvalnost za sve učinjeno do sada, a posebno za dr. Maja Stančić, učinili ste mi život nemjerljivo lakšim i spokojnijim.&quot;
           </p>
-          <div className="font-medium">Igor D., Mostar</div>
+          <div className="font-medium">Igor D.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -279,7 +279,7 @@ export default function OpcaInternaPage() {
             moje stanje i postavili točnu dijagnozu. Njihova stručnost i holistički pristup 
             omogućili su mi da se vratim normalnom životu.&quot;
           </p>
-          <div className="font-medium">Amir H., Mostar</div>
+          <div className="font-medium">Amir H.</div>
         </div>
       </div>
 

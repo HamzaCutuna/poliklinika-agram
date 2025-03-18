@@ -17,10 +17,11 @@ const footerLinks: FooterSection[] = [
   {
     title: 'Brza navigacija',
     links: [
-      { name: 'Početna', href: '/' },
       { name: 'O nama', href: '/o-nama' },
       { name: 'Usluge', href: '/usluge' },
+      { name: 'Oprema', href: '/oprema' },
       { name: 'Doktori', href: '/doktori' },
+      { name: 'Novosti', href: '/novosti' },
       { name: 'Kontakt', href: '/kontakt' },
     ],
   },
@@ -32,6 +33,7 @@ const footerLinks: FooterSection[] = [
       { name: 'Ginekologija', href: '/usluge/ginekologija' },
       { name: 'Radiologija', href: '/usluge/radiologija' },
       { name: 'Laboratorij', href: '/usluge/laboratorij' },
+      { name: 'Opća interna', href: '/usluge/opca-interna' },
     ],
   },
   {

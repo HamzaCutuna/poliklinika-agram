@@ -45,31 +45,28 @@ export default function SistematskiPregledPage() {
         </div>
       </div>
 
-      {/* Services for men and women */}
+      {/* Services*/}
       <div className="mb-16">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Naši sistematski pregledi</h2>
-        
-        {/* Men */}
+
         <div className="mb-12">
-          <h3 className="text-xl md:text-2xl font-semibold mb-6 text-primary">Sistematski pregled za muškarce</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
               <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
-                180 KM
+                250 KM
               </div>
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
                 <Image
-                  src="/icons/checkup.svg"
-                  alt="Osnovni sistematski"
+                  src="/icons/male.svg"
+                  alt="Muski sistematski"
                   width={24}
                   height={24}
                   className="text-primary"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Osnovni sistematski</h3>
+              <h3 className="text-xl font-semibold mb-2">Osnovni sistematski - muškarci</h3>
               <p className="text-muted-foreground">
-                Klinički pregled interniste, EKG s interpretacijom, laboratorijska obrada krvi i urina, 
-                ultrazvuk abdomena.
+                Pregled interniste, EKG, RTG srca i pluća (na indikaciju), UZV abdomena, UZV prostate, PSA – tumorski biljeg prostate, laboratorijska obrada (kompletna krvna slika, CRP, glukoza, kreatinin, urati, bilirubin, kolesterol, HDL,LDL, trigliceridi, AST, ALT, ALP, GGT, K, Na i analiza urina)
               </p>
             </div>
             
@@ -78,88 +75,17 @@ export default function SistematskiPregledPage() {
                 300 KM
               </div>
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Standard sistematski</h3>
-              <p className="text-muted-foreground">
-                Osnovni pregled plus RTG srca i pluća, ergometrija, ultrazvuk prostate i štitnjače, 
-                pregled urologa.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
-              <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
-                450 KM
-              </div>
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Premium sistematski</h3>
-              <p className="text-muted-foreground">
-                Standard pregled plus ultrazvuk srca, holter EKG, ultrazvuk testisa, 
-                kolonoskopija i gastroduodenoskopija.
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        {/* Women */}
-        <div>
-          <h3 className="text-xl md:text-2xl font-semibold mb-6 text-primary">Sistematski pregled za žene</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
-              <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
-                200 KM
-              </div>
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
-                <Image
-                  src="/icons/checkup.svg"
-                  alt="Osnovni sistematski"
+              <Image
+                  src="/icons/female.svg"
+                  alt="Zenski sistematski"
                   width={24}
                   height={24}
                   className="text-primary"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Osnovni sistematski</h3>
+              <h3 className="text-xl font-semibold mb-2">Osnovni sistematski - žene</h3>
               <p className="text-muted-foreground">
-                Klinički pregled interniste, EKG s interpretacijom, laboratorijska obrada krvi i urina, 
-                ultrazvuk abdomena, ginekološki pregled s PAPA testom.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
-              <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
-                330 KM
-              </div>
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Standard sistematski</h3>
-              <p className="text-muted-foreground">
-                Osnovni pregled plus RTG srca i pluća, ergometrija, ultrazvuk dojki, 
-                ultrazvuk štitnjače, mamografija.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
-              <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
-                480 KM
-              </div>
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Premium sistematski</h3>
-              <p className="text-muted-foreground">
-                Standard pregled plus ultrazvuk srca, holter EKG, HPV tipizacija, 
-                kolonoskopija i gastroduodenoskopija, denzitometrija.
+                Pregled interniste, EKG, RTG srca i pluća (na indikaciju), pregled dojki (UZV ili mamografija, ovisno o dobi), kompletna ginekološka obrada (pregled, PAPA, UZV), UZV abdomena, laboratorijska obrada (kompletna krvna slika, CRP, glukoza, kreatinin, urati, bilirubin, kolesterol, HDL, LDL, trigliceridi, AST, ALT, ALP, GGT, K, Na i analiza urina)
               </p>
             </div>
           </div>
@@ -301,9 +227,9 @@ export default function SistematskiPregledPage() {
             </div>
           </div>
           <p className="text-muted-foreground mb-4">
-            &quot;Obavio sam premium sistematski pregled i moram priznati da sam vrlo zadovoljan. Liječnici su bili vrlo temeljiti i profesionalni, a cijeli proces bio je dobro organiziran. Posebno me impresioniralo detaljno objašnjenje svih nalaza.&quot;
+            &quot;Zaista od srca sve pohvale za izuzetnu ljubaznost, profesionalnost i stručnost svakog zaposlenika od samog ulaza i recepcije do završetka sistematskog pregleda. Ne bi nikog mogla izdvojiti jednostavno su svi divni, nasmijani i susretljivi.&quot;
           </p>
-          <div className="font-medium">Alen M., Sarajevo</div>
+          <div className="font-medium">Zehra S.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -317,9 +243,9 @@ export default function SistematskiPregledPage() {
             </div>
           </div>
           <p className="text-muted-foreground mb-4">
-            &quot;Redovito dolazim na sistematske preglede u Polikliniku Agram i uvijek sam zadovoljna uslugom. Cijelokupno osoblje je ljubazno, a pregledi su temeljiti. Zahvaljujući redovitim pregledima, uspjela sam pravovremeno otkriti nekoliko zdravstvenih problema.&quot;
+            &quot;Danas sam bio na sistematskom pregledu, od samog prijema do zavrsetka samo rijeci pohvale kako za pomocno osoblje tako i ta vrhunske znalce svoga posla - specijaliste medicinskih disciplina koji su me pregledali danas.&quot;
           </p>
-          <div className="font-medium">Amina K., Tuzla</div>
+          <div className="font-medium">Rusmir K.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -333,9 +259,9 @@ export default function SistematskiPregledPage() {
             </div>
           </div>
           <p className="text-muted-foreground mb-4">
-            &quot;Odlučio sam se za standard sistematski pregled na preporuku prijatelja i nisam požalio. Sve je obavljeno u jednom danu, bez dugog čekanja. Liječnici su stručni i detaljno objašnjavaju svaki nalaz. Definitivno preporučujem.&quot;
+            &quot;Bio sam na sistematskom pregledu i moram reći da sam izuzetno zadovoljan cijelim iskustvom. Osoblje je bilo vrlo ljubazno i ​​profesionalno, od trenutka kada sam ušao u ordinaciju do završetka pregleda.&quot;
           </p>
-          <div className="font-medium">Emir H., Mostar</div>
+          <div className="font-medium">Denis U.</div>
         </div>
       </div>
 

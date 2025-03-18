@@ -255,7 +255,7 @@ export default function EndokrinologijaPage() {
             točnu dijagnozu i odgovarajuću terapiju. Redovito pratim svoje stanje i iznimno sam zadovoljna 
             stručnošću i pristupom endokrinologa."
           </p>
-          <div className="font-medium">Ajla M., Sarajevo</div>
+          <div className="font-medium">Ajla M.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -273,7 +273,7 @@ export default function EndokrinologijaPage() {
             a njihovi savjeti za promjenu životnog stila pomogli su mi da značajno poboljšam kontrolu šećera 
             i smanjim potrebnu dozu lijekova."
           </p>
-          <div className="font-medium">Samir H., Tuzla</div>
+          <div className="font-medium">Samir H.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -291,7 +291,7 @@ export default function EndokrinologijaPage() {
             Posebno cijenim detaljne upute i objašnjenja koja dobivam od svog endokrinologa, što mi 
             pomaže da bolje razumijem svoje stanje."
           </p>
-          <div className="font-medium">Melisa K., Mostar</div>
+          <div className="font-medium">Melisa K.</div>
         </div>
       </div>
 

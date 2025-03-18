@@ -246,7 +246,7 @@ export default function LaboratorijPage() {
             "Imam redovite kontrole krvne slike i uvijek sam oduševljen brzinom i profesionalnošću osoblja 
             u laboratoriju Poliklinike Agram. Rezultate dobijem isti dan, a osoblje je ljubazno i stručno."
           </p>
-          <div className="font-medium">Mirza K., Sarajevo</div>
+          <div className="font-medium">Mirza K.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -263,7 +263,7 @@ export default function LaboratorijPage() {
             "Kao dijabetičar redovito kontroliram svoje laboratorijske parametre u Poliklinici Agram. 
             Izrazito sam zadovoljna njihovim profesionalnim pristupom i potpunim objašnjenjem rezultata."
           </p>
-          <div className="font-medium">Amela H., Tuzla</div>
+          <div className="font-medium">Amela H.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -280,7 +280,7 @@ export default function LaboratorijPage() {
             "Napravila sam kompletni sistematski pregled koji je uključivao i laboratorijske pretrage. 
             Impresionirana sam brzinom, točnošću i profesionalnošću. Preporučujem svima!"
           </p>
-          <div className="font-medium">Jasmina D., Mostar</div>
+          <div className="font-medium">Jasmina D.</div>
         </div>
       </div>
 

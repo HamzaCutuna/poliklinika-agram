@@ -291,7 +291,7 @@ export default function RadiologijaPage() {
           <p className="text-muted-foreground mb-4">
             &quot;Profesionalna usluga  i ljubaznost osoblja na visokom nivou. Zaista, sve pohvale svim uposlenicima poliklinike Agram, a posebno dr.Rajni Stanusić.&quot;
           </p>
-          <div className="font-medium">Mevla H., Sarajevo</div>
+          <div className="font-medium">Mevla H.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -308,7 +308,7 @@ export default function RadiologijaPage() {
             &quot;Prvi put sam radila MRI pregled i bila sam jako nervozna. Medicinski tehničar je bio izuzetno 
             ljubazan i strpljiv, sve mi je objasnio i učinio iskustvo puno lakšim.&quot;
           </p>
-          <div className="font-medium">Maja D., Banja Luka</div>
+          <div className="font-medium">Maja D.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -325,7 +325,7 @@ export default function RadiologijaPage() {
             &quot;Godinama dolazim na mamografske preglede u Agram. Njihova digitalna mamografija je brza i puno 
             manje neugodna nego tradicionalna. Zahvalna sam na njihovoj brizi i profesionalnosti.&quot;
           </p>
-          <div className="font-medium">Selma T., Mostar</div>
+          <div className="font-medium">Selma T.</div>
         </div>
       </div>
 

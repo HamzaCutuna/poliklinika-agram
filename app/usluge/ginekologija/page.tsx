@@ -294,7 +294,7 @@ export default function GinekologijaPage() {
             "Godinama sam odgađala ginekološki pregled zbog nelagode. U Poliklinici Agram naišla sam na 
             izuzetno profesionalan i empatičan pristup koji mi je pomogao da prevaziđem strah."
           </p>
-          <div className="font-medium">Amina K., Sarajevo</div>
+          <div className="font-medium">Amina K.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -311,7 +311,7 @@ export default function GinekologijaPage() {
             &quot;Cijelu trudnoću sam praćena u Poliklinici Agram i iskustvo je bilo izvanredno. Detaljni pregledi, 
             stručni savjeti i topao pristup učinili su ovaj period mojeg života mnogo lakšim.&quot;
           </p>
-          <div className="font-medium">Emina Đ., Mostar</div>
+          <div className="font-medium">Emina Đ.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -327,7 +327,7 @@ export default function GinekologijaPage() {
           <p className="text-muted-foreground mb-4">
             "Posebne pohvale za dr. Danijelu Petrović Popadić. Vrlo stručna, profesionalna, ljubazna i brižna. Dodatni razlog da dođem ponovo."
           </p>
-          <div className="font-medium">Belma I., Sarajevo</div>
+          <div className="font-medium">Belma I.</div>
         </div>
       </div>
 

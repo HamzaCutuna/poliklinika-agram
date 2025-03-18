@@ -14,11 +14,11 @@ const services = [
   },
   {
     id: 2,
-    icon: '/icons/dermatology.svg',
-    title: 'Dermatologija',
-    description: 'Dijagnostika i liječenje kožnih bolesti, estetska dermatologija, pregled mladeža.',
-    link: '/usluge/dermatologija',
-    imageUrl: '/images/dermatologija.jpg'
+    icon: '/icons/checkup.svg',
+    title: 'Sistematski pregled',
+    description: 'Cjeloviti preventivni pregled tijela i većine organa za muškarce i žene.',
+    link: '/usluge/sistematski-pregled',
+    imageUrl: '/images/sistematski1.jpg'
   },
   {
     id: 3,

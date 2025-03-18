@@ -344,7 +344,7 @@ export default function CitologijaPage() {
             "Redovito radim PAPA test u Poliklinici Agram. Uvijek sam oduševljena profesionalnošću osoblja 
             i brzinom dobivanja nalaza. Preporuka svim ženama koje brinu o svom zdravlju."
           </p>
-          <div className="font-medium">Amina K., Sarajevo</div>
+          <div className="font-medium">Amina K.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -361,7 +361,7 @@ export default function CitologijaPage() {
             "Napravila sam punkciju čvora na štitnjači i bila sam vrlo zadovoljna s postupkom. 
             Liječnik je bio izuzetno pažljiv, a nalaz sam dobila brzo s detaljnim objašnjenjem."
           </p>
-          <div className="font-medium">Emina H., Tuzla</div>
+          <div className="font-medium">Emina H.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -378,7 +378,7 @@ export default function CitologijaPage() {
             &quot;Nakon abnormalnog PAPA testa, napravila sam HPV tipizaciju u Poliklinici Agram. 
             Zahvalna sam na stručnosti i podršci koju sam dobila u ovoj stresnoj situaciji.&quot;
           </p>
-          <div className="font-medium">Selma B., Mostar</div>
+          <div className="font-medium">Selma B.</div>
         </div>
       </div>
 

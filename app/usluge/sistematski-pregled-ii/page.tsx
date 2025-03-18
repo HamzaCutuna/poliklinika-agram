@@ -36,7 +36,7 @@ export default function SistematskiPregledIIPage() {
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
           <Image
-            src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg"
+            src="/images/agram6.jpg"
             alt="Sistematski pregled za menadžere"
             fill
             style={{ objectFit: 'cover' }}
@@ -46,148 +46,49 @@ export default function SistematskiPregledIIPage() {
       </div>
 
       {/* Executive packages */}
-      <div className="mb-16">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Naši VIP sistematski pregledi</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
-            <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
-              550 KM
+       {/* Services*/}
+       <div className="mb-16">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Menadžerski sistematski pregledi</h2>
+
+        <div className="mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
+              <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
+                600 KM
+              </div>
+              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
+                <Image
+                  src="/icons/male.svg"
+                  alt="Muski sistematski"
+                  width={24}
+                  height={24}
+                  className="text-primary"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Menadžerski sistematski - muškarci</h3>
+              <p className="text-muted-foreground">
+                Pregled interniste, EKG, RTG srca i pluća (na indikaciju), UZV abdomena, UZV zdjelice, PSA – tumorski biljeg prostate, kolor dopler karotida, UZV srca, ergometrija, pregled oftalmologa, laboratorijska obrada (kompletna krvna slika, CRP, glukoza, kreatinin, urati, bilirubin, kolesterol, HDL, LDL, trigliceridi, AST, ALT, ALP, GGT, K, Na, Helicobacter pylori – antigen, TSH, test na okultno krvarenje i analiza urina)
+              </p>
             </div>
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
+            
+            <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
+              <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
+                700 KM
+              </div>
+              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
               <Image
-                src="/icons/executive.svg"
-                alt="Executive"
-                width={24}
-                height={24}
-                className="text-primary"
-              />
+                  src="/icons/female.svg"
+                  alt="Zenski sistematski"
+                  width={24}
+                  height={24}
+                  className="text-primary"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Menadžerski sistematski - žene</h3>
+              <p className="text-muted-foreground">
+                Pregled interniste, EKG, RTG srca i pluća (na indikaciju), pregled dojki (UZV ili mamografija, ovisno o dobi), kompletna ginekološka obrada (pregled, PAPA, UZV), UZV abdomena, kolor dopler karotida, UZV srca, ergometrija, pregled oftalmologa, laboratorijska obrada (kompletna krvna slika, CRP, glukoza, kreatinin, urati, bilirubin, kolesterol, HDL, LDL, trigliceridi, AST, ALT, ALP, GGT, K i Na, Helicobacter pylori – antigen, TSH, test na okultno krvarenje i analiza urina)
+              </p>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Executive Basic</h3>
-            <p className="text-muted-foreground mb-4">
-              Detaljan klinički pregled specijalista, proširena laboratorijska obrada, EKG, UZV štitnjače i abdomena, 
-              ergometrija, spirometrija, pregled urologa/ginekologa.
-            </p>
-            <ul className="text-sm text-muted-foreground space-y-2 mb-4">
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Internistički pregled
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Kompletna laboratorijska dijagnostika
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                UZV abdomena i štitnjače
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Specijalistički pregled (urolog/ginekolog)
-              </li>
-            </ul>
-          </div>
-          
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative border-2 border-primary/20">
-            <div className="absolute top-5 right-5 bg-primary text-white font-medium text-sm py-1 px-3 rounded-full">
-              750 KM
-            </div>
-            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-white text-xs font-medium py-1 px-3 rounded-full">
-              Najpopularniji
-            </div>
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
-              <Image
-                src="/icons/executive.svg"
-                alt="Executive Plus"
-                width={24}
-                height={24}
-                className="text-primary"
-              />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Executive Plus</h3>
-            <p className="text-muted-foreground mb-4">
-              Executive Basic paket plus ultrazvuk srca, kolor dopler karotida, RTG pluća, oftalmološki pregled, 
-              ultrazvuk prostate/dojki, dermatološki pregled.
-            </p>
-            <ul className="text-sm text-muted-foreground space-y-2 mb-4">
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Sve usluge iz Basic paketa
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Ehokardiografija i kolor dopler karotida
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Proširena dijagnostika (RTG pluća)
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Dermatološki i oftalmološki pregled
-              </li>
-            </ul>
-          </div>
-          
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all hover:translate-y-[-5px] relative">
-            <div className="absolute top-5 right-5 bg-primary/10 text-primary font-medium text-sm py-1 px-2 rounded-full">
-              950 KM
-            </div>
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
-              <Image
-                src="/icons/executive.svg"
-                alt="Executive Premium"
-                width={24}
-                height={24}
-                className="text-primary"
-              />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Executive Premium</h3>
-            <p className="text-muted-foreground mb-4">
-              Executive Plus paket plus dodatni specijalisti, MR jedne regije po izboru, CT jedne regije po izboru, 
-              holter EKG, holter tlaka, kolonoskopija i gastroskopija.
-            </p>
-            <ul className="text-sm text-muted-foreground space-y-2 mb-4">
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Sve usluge iz Plus paketa
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                MR i CT jedne regije po izboru
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Holter EKG (24h) i holter tlaka
-              </li>
-              <li className="flex items-start">
-                <svg className="h-4 w-4 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Kolonoskopija i gastroskopija
-              </li>
-            </ul>
           </div>
         </div>
       </div>
@@ -336,7 +237,7 @@ export default function SistematskiPregledIIPage() {
             </div>
           </div>
           <p className="text-muted-foreground mb-4">
-            &quot;Kao CEO kompanije s preko 100 zaposlenika, iznimno cijenim temeljitost i diskreciju prilikom Executive Premium pregleda. Sve je obavljeno u jednom danu, a rezultati su bili dostupni odmah. Svakako preporučujem kolegama direktorima.&quot;
+            &quot;Kao CEO kompanije s preko 100 zaposlenika, iznimno cijenim temeljitost i diskreciju prilikom sistematskog pregleda. Sve je obavljeno u jednom danu, a rezultati su bili dostupni odmah. Svakako preporučujem kolegama direktorima.&quot;
           </p>
           <div className="font-medium">Adnan J., Generalni direktor</div>
         </div>
@@ -352,7 +253,7 @@ export default function SistematskiPregledIIPage() {
             </div>
           </div>
           <p className="text-muted-foreground mb-4">
-            &quot;Za našu menadžersku strukturu organizirali smo grupne Executive Plus preglede. Tim Poliklinike Agram pokazao je izvanrednu profesionalnost i fleksibilnost prilagođavajući termine našim poslovnim obvezama. Rezultati su bili vrlo korisni u prevenciji zdravstvenih problema.&quot;
+            &quot;Za našu menadžersku strukturu organizirali smo grupne sistematske preglede. Tim Poliklinike Agram pokazao je izvanrednu profesionalnost i fleksibilnost prilagođavajući termine našim poslovnim obvezama. Rezultati su bili vrlo korisni u prevenciji zdravstvenih problema.&quot;
           </p>
           <div className="font-medium">Mirela K., HR direktorica</div>
         </div>
@@ -368,7 +269,7 @@ export default function SistematskiPregledIIPage() {
             </div>
           </div>
           <p className="text-muted-foreground mb-4">
-            &quot;Redovito obavljam Executive sistematski pregled i svaki put sam iznova impresioniran profesionalnošću i temeljitošću. Posebno cijenim personalizirani pristup i detaljno tumačenje svih nalaza koje dobijem na kraju pregleda. Ovo je prava investicija u zdravlje.&quot;
+            &quot;Redovito obavljam sistematski pregled i svaki put sam iznova impresioniran profesionalnošću i temeljitošću. Posebno cijenim personalizirani pristup i detaljno tumačenje svih nalaza koje dobijem na kraju pregleda. Ovo je prava investicija u zdravlje.&quot;
           </p>
           <div className="font-medium">Damir H., Financijski direktor</div>
         </div>

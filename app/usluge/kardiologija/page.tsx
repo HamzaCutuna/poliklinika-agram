@@ -290,7 +290,7 @@ export default function KardiologijaPage() {
             stručnošću liječnika i pristupom prema pacijentima. Pregledi su temeljiti, a dobijam jasna objašnjenja 
             o svom stanju i potrebnim mjerama."
           </p>
-          <div className="font-medium">Amra H., Sarajevo</div>
+          <div className="font-medium">Amra H.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -308,7 +308,7 @@ export default function KardiologijaPage() {
             je detaljno objasnio sve nalaze i predložio daljnje korake. Cijelim procesom sam vrlo zadovoljan, 
             a posebno pristupačnošću osoblja."
           </p>
-          <div className="font-medium">Emir K., Tuzla</div>
+          <div className="font-medium">Emir K.</div>
         </div>
         
         <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
@@ -326,7 +326,7 @@ export default function KardiologijaPage() {
             uspio sam značajno poboljšati svoje zdravlje. Moderan prostor, ljubazno osoblje i kvalitetna usluga 
             čine me zadovoljnim pacijentom."
           </p>
-          <div className="font-medium">Mirza S., Mostar</div>
+          <div className="font-medium">Mirza S.</div>
         </div>
       </div>
 
